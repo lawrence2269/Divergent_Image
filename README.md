@@ -17,7 +17,7 @@ I am going to use the following datasets for training and validation of the mode
     <li>Flickr_8K => contains images</li>
     <li>Flickr_8K_text => contains a file called flickr8k.token which contains the image and its respective token</li>
 </ul>
-Flickr_8K image data can be downloaded from [Flickr_8K_Images](https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip) and Flickr_8K_text data can be downloaded from [Flickr_8K_text](https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip).
+Flickr_8K image data can be downloaded from [Flickr_8K_Images](https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip) and Flickr_8K_text data can be downloaded from [Flickr_8K_text](https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip)
 <br>
 <b><u>Libraries</u></b> <br>
 <p> The below given libraries are required to run the above files successfully. You can install the below given libraries using <b>pip</b> command in Python or putting these libraries in the <b>requrirements.txt</b> file along with their versions and install using the following commnad <b>pip install -r requirements.txt</b>
