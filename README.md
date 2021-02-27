@@ -32,6 +32,7 @@ I am going to use the following datasets for training and validation of the mode
     <li>Flickr_8K_text => contains a file called flickr8k.token which contains the image and its respective token</li>
 </ul>
 Flickr_8K image data can be downloaded from <a href="https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip">Flickr_8K image</a> and Flickr_8K_text data can be downloaded from <a href="https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip">Flickr_8K_text</a>
+
 ### Methodology
 I am going to use a pre-trained model - <b>Xception</b> for extracting image features and these features are fed into LSTM i.e RNN to generate the captions for the given images. Once the caption for a given image is generated, text similarity i.e. cosine similarity is calculated between the generated caption and set of available captions in the system. If the user requests either the set of similar or divergent images, then those images are retrieved whose similarity scores are above or equal to 90% (similar) and less than 90% (divergent) and displayed to the user based on the number of images that the user had requested.
 
